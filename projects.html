@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BAÑAS | PORTFOLIO WEBSITE</title>
+  <meta name="title" content="Bañas_Web Portfolio">
+  <meta name="description" content="This is a personal portfolio">
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="preload" as="image" href="/images/hero-banner.jpg">
+  <link rel="icon" type="image/png" href="/images/logo.png">
+
+</head>
+
+<body>
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+
+      <a href="index.html" class="logo">
+        <img src="/images/logo.png" width="130" height="50" alt="Bañas Portfolio">
+      </a>
+      <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="/index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="/about.html" class="navbar-link">About</a>
+          </li>
+          
+          <li>
+            <a href="/projects.html" class="navbar-link">Projects</a>
+          </li>
+
+          <li>
+            <a href="/quizzes.html" class="navbar-link">Quizzes</a>
+          </li>
+
+          <li>
+            <a href="/contact.html" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="portfolio"  id="portfolio" aria-labelledby="portfolio-label">
+
+        <div class="banner">
+          <img src="/images/header.jpg" alt="Header">
+          <div class="banner-text">
+              <h1>PROJECTS</h1>
+          </div>
+    
+      </div>
+
+        <!---Laboratory Activities-->
+      
+        <div class="title-wrapper container">
+
+          <div>
+            <p class="section-subtitle" id="portfolio-label">ITEC 101</p>
+
+            <h2 class="h2 section-title">Laboratory Activities</h2>
+          </div>
+
+          <p class="section-text">
+            This contains pictures of all the laboratory activities we did in ITEC 101. It shows the hands-on exercises and 
+            practical work we completed in the subject. These pictures can be useful for reviewing the activies and lessons we learned.
+          </p>
+
+        </div>
+
+        <div class="slider" data-slider>
+
+          <ul class="slider-container" data-slider-container>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="/projects/lab-act1.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Laboratory Activity #1</h3>
+
+                  <p class="card-text">Website Design <br>(HTML, CSS)</p>
+                </div>
+
+                <a href="https://drive.google.com/drive/folders/1J5MxDwUrK_PUA0uXKAhCHCUKVpoO8Tem?usp=sharing" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                 <img src="/projects/lab-act2.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Laboratory Activity #2</h3>
+
+                  <p class="card-text">Log In & Sign Up <br>(HTML, CSS, PHP)</p>
+                </div>
+
+                <a href="https://drive.google.com/drive/folders/1brr_pXgt0sqHYM9pI44fl9fmgYiKK0WQ?usp=sharing" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                 <img src="/projects/lab-act3.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Laboratory Activity #3</h3>
+
+                  <p class="card-text">Portfolio Website <br>(HTML, CSS, JAVASCRIPT, FORM SUBMIT)</p>
+                </div>
+
+                <a href="index.html" class="layer-link"></a>
+
+              </div>
+            </li>
+
+
+          </ul>
+
+          <div class="slider-controls">
+            <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+
+            <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+          </div>
+
+        </div>
+
+        <!---Websites-->
+
+        <div class="title-wrapper container">
+
+          <div>
+            <p class="section-subtitle" id="portfolio-label">Projects</p>
+
+            <h2 class="h2 section-title">Websites</h2>
+          </div>
+
+          <p class="section-text">
+            This contains the websites I have created throughout the years. It showcases the hands-on projects and practical work I
+             have completed. 
+             
+          </p>
+
+        </div>
+
+        <div class="slider" data-slider>
+
+          <ul class="slider-container" data-slider-container>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="/projects/website/bp.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Blackpink Fandom Website</h3>
+
+                  <p class="card-text">Blackpink Fandom Website that has Infos about the group and the members <br>(HTML, CSS, JAVASCRIPT)</p>
+                </div>
+
+                <a href="https://drive.google.com/file/d/1a7m2Bn6YbkCsjefG2KslW6_eCDpzXZ9R/view?usp=sharing" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="/projects/website/portfolio.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Portfolio Website</h3>
+
+                  <p class="card-text">Portfolio Website made a few year back<br>(HTML, CSS, JAVASCRIPT)</p>
+                </div>
+
+                <a href="https://drive.google.com/drive/folders/1wJGdzxbVPEvGwm7Ch3SR5CiBejGlYngt?usp=sharing" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="/projects/website/noir.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Noirtel a Fuel Billing System</h3>
+
+                  <p class="card-text">Fuel Monitor and Liquidation System<br>(HTML, CSS, PHP)</p>
+                </div>
+
+                <a href="https://drive.google.com/drive/folders/17vlxdtYurFNNe6CgE8IiDZFfHK_KIk9m?usp=sharing" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="/projects/website/cvsu.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Cavite State University Enrollment System</h3>
+
+                  <p class="card-text">Website for Enrollment in CVSU-Silang <br>(HTML, CSS, PHP)</p>
+                </div>
+
+                <a href="https://drive.google.com/drive/folders/1ILeTJ62dUz0n3bOPQ8JCTppg9kSs4nLe?usp=drive_link" class="layer-link"></a>
+
+              </div>
+            </li>
+
+
+          </ul>
+
+          <div class="slider-controls">
+            <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+
+            <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+          </div>
+
+        </div>
+
+
+        <!---Software Applications-->
+        <div class="title-wrapper container">
+
+          <div>
+            <p class="section-subtitle" id="portfolio-label">Projects</p>
+
+            <h2 class="h2 section-title">Software Applications</h2>
+          </div>
+
+          <p class="section-text">
+            This collection includes the desktop and mobile apps I have created over the years using different tools like GDevelop, Java, C#, and Xamarin. 
+            It shows the projects I’ve worked on and how my skills have improved.
+          </p>
+
+        </div>
+
+        <div class="slider" data-slider>
+
+          <ul class="slider-container" data-slider-container>
+
+           <!---Desktop-->
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="/projects/desktop/vernus.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Vernus Idol</h3>
+
+                  <p class="card-text">Desktop Crossdress Idol Guessing Game<br>(Java)</p>
+                </div>
+
+                <a href="https://bit.ly/3PTMvA3" class="layer-link"></a>
+
+              </div>
+            </li>
+
+       
+
+            <!---Mobile-->
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="/projects/mobile/bit.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Bit Dictionary</h3>
+
+                  <p class="card-text">Mobile Technology Dictionary Application <br>(XAMARIN)</p>
+                </div>
+
+                <a href="https://drive.google.com/file/d/12ZNW6YGArQw2XSwEn6ECaGtG7X3t3DMQ/view?usp=sharing" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="/projects/mobile/sit.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Sit and Zip Garden Cafe</h3>
+
+                  <p class="card-text">Mobile Point of Sale and Reservation Application <br>(G Develop 5)</p>
+                </div>
+
+                <a href="https://drive.google.com/drive/folders/1LU-PlSi1kDXATAcYoQFHU6WmduY55I7Z?usp=sharing" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="/projects/mobile/owth.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">One Way to Hell</h3>
+
+                  <p class="card-text">Mobile Game with Hell University as the Inspo <br>(G Develop 5)</p>
+                </div>
+
+                <a href="https://bit.ly/3GKn1kE" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="/projects/mobile/paw.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Paw Patrol</h3>
+
+                  <p class="card-text">Mobile Game with Paw Patrol as the Inspo <br>(G Develop 5)</p>
+                </div>
+
+                <a href="https://bit.ly/3PVCYbV" class="layer-link"></a>
+
+              </div>
+            </li>
+
+
+
+          </ul>
+
+          <div class="slider-controls">
+            <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+
+            <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+          </div>
+
+        </div>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in touch</p>
+        </li>
+
+        <li>
+          <a href="mailto:info@kwilliams.com" class="footer-link">banasangelica22@gmail.com</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Location</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Dasmariñas City, Province of Cavite</a>
+        </li>
+
+      </ul>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://www.facebook.com/angelica.banas.22" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.instagram.com/__10101011__/" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="mailto:banasangelica22@gmail.com" class="social-link">
+            <ion-icon name="mail-outline"></ion-icon>
+          </a>
+        </li>
+
+        
+        <li>
+            <a href="https://github.com/2AsB2" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.linkedin.com/in/angelica-s-banas" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+  
+  <script src="/js/script.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+
+</html>

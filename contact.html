@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BAÑAS | PORTFOLIO WEBSITE</title>
+  <meta name="title" content="Bañas_Web Portfolio">
+  <meta name="description" content="This is a personal portfolio">
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="preload" as="image" href="/images/hero-banner.jpg">
+  <link rel="icon" type="image/png" href="/images/logo.png">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  </div>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="index.html" class="logo">
+        <img src="/images/logo.png" width="130" height="50" alt="Bañas Portfolio">
+      </a>
+
+      <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="/index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="/about.html" class="navbar-link">About</a>
+          </li>
+          
+          <li>
+            <a href="/projects.html" class="navbar-link">Projects</a>
+          </li>
+
+          <li>
+            <a href="/quizzes.html" class="navbar-link">Quizzes</a>
+          </li>
+
+          <li>
+            <a href="/contact.html" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+  <main>
+    <article>
+
+   <!-- 
+  - #CONTACT
+-->
+
+<div class="banner">
+    <img src="/images/header.jpg" alt="Header">
+    <div class="banner-text">
+        <h1>CONTACT ME</h1>
+    </div>
+</div>
+
+<section class="section contact" id="contact" aria-label="contact">
+  <div class="container">
+
+    <p class="section-subtitle">Contact Me</p>
+
+    <h2 class="h2 section-title">Get in Touch</h2>
+
+    <div class="contact-wrapper">
+
+      <div class="contact-info">
+        <p class="section-text">
+          If you would like to connect, collaborate, or have any inquiries, feel free to reach out to me. 
+          I will get back to you as soon as possible.
+        </p>
+        <br><br>
+        <h3 class="contact-label">Address</h3>
+        <p class="contact-detail">Dasmariñas City, Cavite, Philippines</p>
+        <br><br>
+        <h3 class="contact-label">E-mail</h3>
+        <p class="contact-detail">banasangelica22@gmail.com</p>
+      </div>
+
+      <div class="contact-form">
+        <h3 class="contact-label">Send a Message</h3>
+        <br>
+        <form action="https://formsubmit.co/banasangelica22@gmail.com" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="tel" name="phone" placeholder="Your Phone" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <br>
+          <button type="submit" class="btn has-before">Send Message</button>
+        </form>
+        
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in touch</p>
+        </li>
+
+        <li>
+          <a href="mailto:info@kwilliams.com" class="footer-link">banasangelica22@gmail.com</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Location</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Dasmariñas City, Province of Cavite</a>
+        </li>
+
+      </ul>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://www.facebook.com/angelica.banas.22" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.instagram.com/__10101011__/" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="mailto:banasangelica22@gmail.com" class="social-link">
+            <ion-icon name="mail-outline"></ion-icon>
+          </a>
+        </li>
+
+        
+        <li>
+            <a href="https://github.com/2AsB2" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.linkedin.com/in/angelica-s-banas" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+  <script src="/js/script.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+
+</html>

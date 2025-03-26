@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BAÑAS | PORTFOLIO WEBSITE</title>
+  <meta name="title" content="Bañas_Web Portfolio">
+  <meta name="description" content="This is a personal portfolio">
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="preload" as="image" href="/images/hero-banner.jpg">
+  <link rel="icon" type="image/png" href="/images/logo.png">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+
+      <a href="index.html" class="logo">
+        <img src="/images/logo.png" width="130" height="50" alt="Bañas Portfolio">
+      </a>
+
+      <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="/index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="/about.html" class="navbar-link">About</a>
+          </li>
+          
+          <li>
+            <a href="/projects.html" class="navbar-link">Projects</a>
+          </li>
+
+          <li>
+            <a href="/quizzes.html" class="navbar-link">Quizzes</a>
+          </li>
+
+          <li>
+            <a href="/contact.html" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+  <main>
+    <article>
+
+      <div class="banner">
+        <img src="/images/header.jpg" alt="Header">
+        <div class="banner-text">
+            <h1>ABOUT ME</h1>
+        </div>
+    </div>
+    
+
+      <!-- 
+        - #SKILLS
+      -->
+      <section class="section skills" id="about" aria-label="our skills">
+        <div class="container">
+          <p class="section-subtitle">About Me</p>
+          <h2 class="h2 section-title">Who I Am</h2>
+      
+          <div class="skills-wrappers">
+            <div class="about-contents">
+              <ul class="personal-info">
+                <li><strong>Name:</strong> Baɦas, Angelica S.</li>
+                <li><strong>Nickname:</strong> Angge</li>
+                <li><strong>Age:</strong> 20</li>
+                <li><strong>Date of Birth:</strong> October 22, 2004</li>
+                <li><strong>Place of Birth:</strong> Dasmariñas City, Cavite</li>
+                <li><strong>MBTI:</strong> INTP-T</li>
+                <li><strong>Chronotype:</strong> Night Owl</li>
+                <li><strong>Hobby:</strong> Arts</li>
+                <li><strong>University:</strong> Cavite State University – Silang Campus</li>
+                <li><strong>Degree:</strong> Bachelor of Science in Information Technology (BSIT)</li>
+                <li><strong>Year Level:</strong> 3rd Year</li>
+          
+              
+              </ul>
+              <a href="/about/BAÑAS_CV.pdf" class="btn has-before">
+                <span class="span">Download CV</span>
+                <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
+              </a>
+            </div>
+            <div class="about-images">
+              <img class="self" src="/images/hero-banner.jpg" alt="Self Image">
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+      <section>
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <div>
+              <p class="section-subtitle">
+                Thing to Know
+              </p>
+
+              <h2 class="h2 section-title" id="service-label">Educational Attainment</h2>
+            </div>
+
+            <p class="section-text">
+              The following is a list of educational institutions I have attended throughout my academic journey, along with the corresponding years of study. 
+            </p>
+
+          </div>
+  
+          <div class="education-wrapper">
+  
+              <div class="education-card">
+                  <ion-icon class="edu-icon" name="school"></ion-icon>
+                  <div class="edu-text">
+                      <h3>Primary School</h3>
+                      <p>Bresee Christian Academy of Dasmariñas <br>2010 - 2016</p>
+                  </div>
+              </div>
+  
+              <div class="education-card">
+                  <ion-icon class="edu-icon" name="school"></ion-icon>
+                  <div class="edu-text">
+                      <h3>Junior High School</h3>
+                      <p>Asian Trinity School Of Dasmariñas<br>2016 - 2020</p>
+                  </div>
+              </div>
+  
+              <div class="education-card">
+                  <ion-icon class="edu-icon" name="school"></ion-icon>
+                  <div class="edu-text">
+                      <h3>Senior High School</h3>
+                      <p>Emilio Aguinaldo College, Cavite Campus <br>2020 - 2022</p>
+                  </div>
+              </div>
+  
+              <div class="education-card">
+                  <ion-icon class="edu-icon" name="school"></ion-icon>
+                  <div class="edu-text">
+                      <h3>Bachelor’s Degree</h3>
+                      <p>Cavite State University - Silang Campus<br>2022 - Present</p>
+                  </div>
+              </div>
+  
+          </div>
+      </div>
+      </section>
+
+
+      <!-- 
+        - #SKILLS for SERVICES
+      -->
+
+      <section class="service" id="skills" aria-labelledby="service-label">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <div>
+              <p class="section-subtitle">
+                Things I can do
+              </p>
+
+              <h2 class="h2 section-title" id="service-label">Skills</h2>
+            </div>
+
+            <p class="section-text">
+              Here are the skills and programming languages that I have learned and can effectively use. Through my experience in development, 
+              I have gained proficiency in various technologies that allow me to build functional and efficient applications. 
+            </p>
+
+          </div>
+
+          <div class="slider" data-slider>
+
+            <ul class="slider-container service-list" data-slider-container>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="logo-html5"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">HTML</h3>
+
+                  <p class="card-text">
+                    HTML (HyperText Markup Language) is the standard language for creating and structuring webpages using elements like headings, paragraphs, images, and links.
+                  </p>
+
+                  <span class="text-lg card-number">01</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my website design service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="logo-css3"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">CSS</h3>
+
+                  <p class="card-text">
+                    CSS (Cascading Style Sheets) is a stylesheet language used to design and style HTML elements, controlling layout, colors, fonts, and responsiveness of webpages.
+                  </p>
+
+                  <span class="text-lg card-number">02</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my SEO Marketing service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="logo-javascript"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">JAVASCRIPT</h3>
+
+                  <p class="card-text">
+                    JavaScript is a programming language used to add interactivity, dynamic behavior, and functionality to webpages.
+                  </p>
+
+                  <span class="text-lg card-number">03</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my eCommerce service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="code"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">C++</h3>
+
+                  <p class="card-text">
+                    C++ is a high-performance programming language used for system software, game development, and applications requiring speed and efficiency.
+                  </p>
+
+                  <span class="text-lg card-number">04</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Graphic Design service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="code"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">C#</h3>
+
+                  <p class="card-text">
+                    C# is a modern, object-oriented programming language developed by Microsoft, widely used for game development, web applications, and Windows software.
+                  </p>
+
+                  <span class="text-lg card-number">05</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Digital Marketing service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="code"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">JAVA</h3>
+
+                  <p class="card-text">
+                    Java is a versatile, object-oriented programming language known for its "write once, run anywhere" capability, commonly used in web applications, mobile development (Android), and enterprise software.
+                  </p>
+
+                  <span class="text-lg card-number">06</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Social Media service"></a>
+
+                </div>
+              </li>
+
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="phone-portrait"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">XAMARIN</h3>
+
+                  <p class="card-text">
+                    Xamarin is a cross-platform framework by Microsoft that allows developers to build mobile applications for iOS and Android using C# and .NET.
+                  </p>
+
+                  <span class="text-lg card-number">07</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Social Media service"></a>
+
+                </div>
+              </li>
+
+
+            </ul>
+
+            <div class="slider-controls">
+              <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+
+              <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in touch</p>
+        </li>
+
+        <li>
+          <a href="mailto:info@kwilliams.com" class="footer-link">banasangelica22@gmail.com</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Location</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Dasmariñas City, Province of Cavite</a>
+        </li>
+
+      </ul>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://www.facebook.com/angelica.banas.22" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.instagram.com/__10101011__/" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="mailto:banasangelica22@gmail.com" class="social-link">
+            <ion-icon name="mail-outline"></ion-icon>
+          </a>
+        </li>
+
+        
+        <li>
+            <a href="https://github.com/2AsB2" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.linkedin.com/in/angelica-s-banas" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+  <script src="/js/script.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+
+</html>
