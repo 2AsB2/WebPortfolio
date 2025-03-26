@@ -334,6 +334,10 @@ body.nav-active { overflow: hidden; }
   .banner-text h1 {
     font-size: 9vw;
   }
+
+  .section-text{
+  text-align: justify;
+}
 }
 
 @media (max-width: 480px) { 
